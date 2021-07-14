@@ -13,6 +13,9 @@
 		1B2ACA6A269A05B6003F14E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2ACA68269A05B6003F14E5 /* Main.storyboard */; };
 		1B2ACA6C269A05B7003F14E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2ACA6B269A05B7003F14E5 /* Assets.xcassets */; };
 		1B2ACA6F269A05B7003F14E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2ACA6D269A05B7003F14E5 /* LaunchScreen.storyboard */; };
+		1B2ACA77269A0639003F14E5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2ACA76269A0639003F14E5 /* PieChartView.swift */; };
+		1B2ACA7B269AC3F6003F14E5 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2ACA7A269AC3F6003F14E5 /* BackgroundView.swift */; };
+		1B3E62DE269C95E80017C5B5 /* PieChartCarouselAccessibilityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E62DD269C95E80017C5B5 /* PieChartCarouselAccessibilityElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1B2ACA6B269A05B7003F14E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B2ACA6E269A05B7003F14E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B2ACA70269A05B7003F14E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2ACA76269A0639003F14E5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		1B2ACA7A269AC3F6003F14E5 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		1B3E62DD269C95E80017C5B5 /* PieChartCarouselAccessibilityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartCarouselAccessibilityElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				1B2ACA6B269A05B7003F14E5 /* Assets.xcassets */,
 				1B2ACA6D269A05B7003F14E5 /* LaunchScreen.storyboard */,
 				1B2ACA70269A05B7003F14E5 /* Info.plist */,
+				1B2ACA76269A0639003F14E5 /* PieChartView.swift */,
+				1B2ACA7A269AC3F6003F14E5 /* BackgroundView.swift */,
+				1B3E62DD269C95E80017C5B5 /* PieChartCarouselAccessibilityElement.swift */,
 			);
 			path = "Accessibility Chart";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2ACA7B269AC3F6003F14E5 /* BackgroundView.swift in Sources */,
+				1B2ACA77269A0639003F14E5 /* PieChartView.swift in Sources */,
 				1B2ACA67269A05B6003F14E5 /* ViewController.swift in Sources */,
+				1B3E62DE269C95E80017C5B5 /* PieChartCarouselAccessibilityElement.swift in Sources */,
 				1B2ACA63269A05B6003F14E5 /* AppDelegate.swift in Sources */,
 				1B2ACA65269A05B6003F14E5 /* SceneDelegate.swift in Sources */,
 			);
